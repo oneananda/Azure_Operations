@@ -8,6 +8,15 @@ A collection of scripts and tools for managing Azure operations. This repository
 - **PowerShell_Scripts**: Scripts for managing Azure resources using PowerShell.
 - **CLI_Scripts**: Scripts for managing Azure resources using the Azure CLI.
 
+## Repository Structure 
+
+```
+Azure_Operations/
+├── ARM_Templates/
+├── PowerShell_Scripts/
+├── CLI_Scripts/
+```
+
 ## Getting Started
 
 To get started, clone the repository and explore the directories for scripts and templates that meet your needs.
