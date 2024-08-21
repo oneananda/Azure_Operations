@@ -25,3 +25,8 @@ Having built-in auto-scaling options which enabling the application to scale up 
 - **Integrated DevOps:** 
 
 Azure App Service integrates seamlessly with Azure DevOps, GitHub, Bitbucket, and other CI/CD tools, allowing for continuous integration and continuous deployment (CI/CD). This helps streamline the development lifecycle from code commit to production.
+
+- **Multiple Language Support:** 
+
+The platform supports a wide range of programming languages and frameworks, making it versatile and adaptable to different development environments.
+
