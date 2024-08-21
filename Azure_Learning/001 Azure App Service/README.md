@@ -18,5 +18,7 @@ With Azure App Service, you can host web apps in various programming languages a
 
 This enables to focus on building the application rather than worrying about the infrastructure.
 
+- **Scalability:**
 
+Having built-in auto-scaling options which enabling the application to scale up or down based on demand.
 
