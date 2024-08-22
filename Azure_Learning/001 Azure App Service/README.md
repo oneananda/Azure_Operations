@@ -30,3 +30,5 @@ Azure App Service provides a seamless experience with Azure DevOps, GitHub, Bitb
 
 It supports a variety of programming languages and frameworks; hence, it is versatile and flexible enough to operate under very different development environments.
 
+- **Security:** Azure by default provides high level of security such as HTTPS, custom domain support, and integration with Azure Active Directory for authentication and authorization, it also supports managed certificates so that we can easily configure the SSL / TLS for our apps.
+
