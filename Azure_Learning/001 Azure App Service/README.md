@@ -29,3 +29,12 @@ This enables focusing on building the application rather than worrying about the
 - **Global Reach:** Azure App Service provides the `flexiblity to deploy` the applications in multiple regions worldwide, so that we can reach out to world wide audiences in minutes via our apps.
 
 - **Cost Effective:** With the option `pay-as-you-go` we can set our usage based on seconds, thus optimize our costs in a effective manner, Azure App Service provides multiple `budget friendly options` to choose.
+
+## Azure App Service - Use cases
+
+- **Web Applications:** Ideal for the sites where we don't need to manage the underlying infrastructure, e-commerce site, business applications
+- **RESTful APIs:** Ideal for hosting RESTful APIs that can be used by various clients such as mobile apps, web apps, and IoT devices.
+- **Mobile Backends:** When developing mobile applications that require a backend service for data storage, authentication, and other server-side logic.
+- **Microservices:** Ideal for Microservices based architectures, each Miocroservice can be hosted as a separate App Service
+- **Proof Of Concepts(POCs):** Ideal for POCs for quick prototyping, testing without investing heavily in Infrastructure.
+- **Applications Requiring CI/CD:** For projects that require continuous integration and continuous deployment, Azure App Service integrates smoothly with DevOps pipelines, making it easier to automate your deployments.
