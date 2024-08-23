@@ -2,5 +2,9 @@
 
 ## Introduction
 
-This is a dedicated repo for `Azure` learning.
+This is a dedicated repo folder for `Azure` learning.
+
+### Modules covered
+
+- **001 Azure App Service**
 
