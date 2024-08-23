@@ -15,5 +15,6 @@
 
 ### Configuration
 
-- Subscription: Need a valid subscirption
-- Resource Group: We need a resource group to host, select an existing one or create new
+- Subscription: Need a valid subscirption.
+- Resource Group: We need a resource group to host, select an existing one or create new.
+- Name: Enter a unique name for your web app. This name will be part of your app's URL (e.g., https://yourappname.azurewebsites.net).
