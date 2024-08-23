@@ -12,3 +12,8 @@
 - In the Azure Portal, search for "App Services" in the search bar and select it from the results.
 **Create a New App Service:**
 - Click the "+ Create" button to start creating a new App Service.
+
+### Configuration
+
+- Subscription: Need a valid subscirption
+- Resource Group: We need a resource group to host, select an existing one or create new
