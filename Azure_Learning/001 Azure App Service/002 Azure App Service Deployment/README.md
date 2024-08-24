@@ -25,3 +25,9 @@ Azure App Service provides multiple ways to deploy the application:
 - **Azure Repos/GitHub Integration:** Automate deployment by connecting the Azure App Service to a repository. When code is pushed to a branch, the app is automatically deployed.
 - **CI/CD Pipelines:** We can use Azure DevOps to create a pipeline that automatically builds, tests, and deploys your application.
 
+## Deployment Process
+
+- **Build:** Azure builds the application using the specified runtime stack.
+- **Package:** The app is packaged with all dependencies.
+- **Deploy:** The package is deployed to the selected deployment slot.
+- **Verify:** After deployment, perform testing on a staging slot before swapping with production.
