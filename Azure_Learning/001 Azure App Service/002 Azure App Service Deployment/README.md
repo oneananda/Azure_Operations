@@ -20,4 +20,8 @@ Azure App Service provides multiple ways to deploy the application:
 - **Staging Slots:** Test versions of the app that allow to validate changes before swapping with production.
 - **Slot Swap:** Allows to swap between production and staging slots with minimal downtime, reducing risks during deployment.
 
+## Continuous Deployment
+
+- **Azure Repos/GitHub Integration:** Automate deployment by connecting the Azure App Service to a repository. When code is pushed to a branch, the app is automatically deployed.
+- **CI/CD Pipelines:** We can use Azure DevOps to create a pipeline that automatically builds, tests, and deploys your application.
 
