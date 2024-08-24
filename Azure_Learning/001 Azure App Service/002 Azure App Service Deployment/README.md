@@ -14,3 +14,10 @@ Azure App Service provides multiple ways to deploy the application:
 - **Zip Deploy:** Upload a zip file containing the app’s code and content.
 - **Containerized Deployment:** Deploy Docker containers or Kubernetes-based applications.
 
+## Deployment Slots
+
+- **Production Slot:** The live version of the app.
+- **Staging Slots:** Test versions of the app that allow to validate changes before swapping with production.
+- **Slot Swap:** Allows to swap between production and staging slots with minimal downtime, reducing risks during deployment.
+
+
