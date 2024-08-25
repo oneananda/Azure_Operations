@@ -60,7 +60,7 @@ Once the deployment is complete, Azure provides a default domain for your static
 - **Public Repo Deployment**: [https://victorious-stone-0ed44e51e.5.azurestaticapps.net/](https://victorious-stone-0ed44e51e.5.azurestaticapps.net/)
 - **Private Repo Deployment**: [https://purple-sand-02f91f110.5.azurestaticapps.net/](https://purple-sand-02f91f110.5.azurestaticapps.net/)
 
-Visit the URLs above to view your deployed static web apps.
+Visit the URLs above to view the `sample` deployed static web apps.
 
 ## Additional Notes
 
