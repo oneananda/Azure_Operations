@@ -24,4 +24,8 @@ This guide provides a simple step-by-step process of using Azure Pipelines to Au
 - After the build steps, add stages to deploy the application.
 - These stages can deploy to different environments, like development, staging, or production.
 
+## Set Up Continuous Integration (CI)
+- Enable Continuous Integration (CI) so that every commit triggers a new build automatically.
+- This helps to ensure that your codebase is always in a buildable state.
+
 ---
