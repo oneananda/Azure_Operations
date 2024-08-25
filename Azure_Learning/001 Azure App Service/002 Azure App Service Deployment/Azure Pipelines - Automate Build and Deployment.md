@@ -28,4 +28,8 @@ This guide provides a simple step-by-step process of using Azure Pipelines to Au
 - Enable Continuous Integration (CI) so that every commit triggers a new build automatically.
 - This helps to ensure that your codebase is always in a buildable state.
 
+## Set Up Continuous Deployment (CD)
+- Enable Continuous Deployment (CD) to automatically deploy builds that pass all tests and checks.
+- You can set up deployment approvals if you need manual intervention before deploying to production.
+
 ---
