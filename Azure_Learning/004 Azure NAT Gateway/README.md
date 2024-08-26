@@ -30,7 +30,11 @@ Azure NAT Gateway - Network Address Translation (NAT) service that provides outb
 
 - The public IP address used by the NAT Gateway remains static, ensuring consistent outbound connectivity. This is essential for scenarios where the same public IP needs to be maintained, such as when connecting to external services that require IP whitelisting.
 
+## Steps for Azure NAT Gateway
 
+- Create a NAT Gateway:
+- Associate with Subnets:
+- Configure Network Security Groups (NSGs):
 
 
 
