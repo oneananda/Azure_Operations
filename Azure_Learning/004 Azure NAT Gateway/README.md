@@ -9,6 +9,27 @@ Azure NAT Gateway - Network Address Translation (NAT) service that provides outb
 - Scalability: This can scale to large number of concurrent users, making it suitable for large enterprises with high outbound connections
 - High Availablity: This is a fully managed service, with built-in redundancy ensuring high availablity
 
+## How Azure NAT Gateway Works
+
+**Private IPs and Outbound Traffic:**
+
+- Resources within a VNet, such as VMs, typically have private IP addresses that are not routable on the Internet.
+- When these resources need to access external services (e.g., APIs, databases, websites), they require a public IP address to initiate the connection.
+
+**Association with Subnets:**
+
+- We can associate the NAT Gateway with one or more subnets within the VNet.
+- Once associated, all outbound traffic from resources within those subnets will be routed through the NAT Gateway.
+
+**Network Address Translation (NAT):**
+
+- The NAT Gateway translates the private IP addresses of your resources to the public IP address(es) associated with the NAT Gateway.
+- This translation occurs automatically for all outbound connections.
+
+**Static Public IP:**
+
+- The public IP address used by the NAT Gateway remains static, ensuring consistent outbound connectivity. This is essential for scenarios where the same public IP needs to be maintained, such as when connecting to external services that require IP whitelisting.
+
 
 
 
