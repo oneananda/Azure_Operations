@@ -36,7 +36,14 @@ Azure NAT Gateway - Network Address Translation (NAT) service that provides outb
 - Associate with Subnets:
 - Configure Network Security Groups (NSGs):
 
+## Use Cases for Azure NAT Gateway
 
-
+- **High Availability and Scalability:** 
+    - Suitable for scenarios requiring high-volume outbound traffic, such as large-scale web applications, microservices architectures, or API gateways.
+- **Consistent Outbound IP:** 
+    - Useful when we need to maintain a consistent outbound IP address for connecting to external services that use IP whitelisting (e.g., SaaS providers, third-party APIs).
+- **Enhanced Security:** 
+    - Improves security by preventing inbound traffic to the resources while still allowing outbound communication.
+    - Can be used in conjunction with NSGs and Azure Firewall for a comprehensive network security strategy.
 
 
