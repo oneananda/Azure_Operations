@@ -4,10 +4,10 @@ Azure NAT Gateway - Network Address Translation (NAT) service that provides outb
 
 ## Key Features
 
-- Outbound Connectivity: Using Azure NAT Gateway the resouces present in VNet will make outbound connections via a single public static IP address.
-- Static Public IP Address: Uses static public IP addresses to route the private IP addresses in the VNet
-- Scalability: This can scale to large number of concurrent users, making it suitable for large enterprises with high outbound connections
-- High Availablity: This is a fully managed service, with built-in redundancy ensuring high availablity
+- **Outbound Connectivity:** Using Azure NAT Gateway the resouces present in VNet will make outbound connections via a single public static IP address.
+- **Static Public IP Address:** Uses static public IP addresses to route the private IP addresses in the VNet
+- **Scalability:** This can scale to large number of concurrent users, making it suitable for large enterprises with high outbound connections
+- **High Availablity:** This is a fully managed service, with built-in redundancy ensuring high availablity
 
 ## How Azure NAT Gateway Works
 
