@@ -53,7 +53,7 @@ Both deployments utilize the `vanilla-basic` template available at [staticwebdev
 6. **Review and Create**:
    - Review your settings and click `Create` to deploy the static web app.
 
-## Step 3: Access Your Deployed Static Web App
+## Step 3: Access the Deployed Static Web App
 
 Once the deployment is complete, Azure provides a default domain for your static web app:
 
