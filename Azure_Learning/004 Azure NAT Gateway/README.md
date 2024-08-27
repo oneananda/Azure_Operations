@@ -1,4 +1,4 @@
-# Azure NAT Gateway
+﻿# Azure NAT Gateway
 
 Azure NAT Gateway - Network Address Translation (NAT) service that provides outbound Internet connectivity for resources in an Azure Virtual Network (VNet) without exposing them to inbound public traffic. It enables virtual machines (VMs), containers, and other resources within a VNet to communicate with external services while maintaining their private IP addresses.
 
@@ -46,4 +46,15 @@ Azure NAT Gateway - Network Address Translation (NAT) service that provides outb
     - Improves security by preventing inbound traffic to the resources while still allowing outbound communication.
     - Can be used in conjunction with NSGs and Azure Firewall for a comprehensive network security strategy.
 
+## NAT and its subtypes
+
+```
+NAT
+├── Static_NAT
+├── Dynamic_NAT
+├── Port_Address_Translation_(PAT)
+├── NAT_Subtypes
+    ├── Source_NAT_(SNAT)
+    └── Destination_NAT_(DNAT)
+```
 
