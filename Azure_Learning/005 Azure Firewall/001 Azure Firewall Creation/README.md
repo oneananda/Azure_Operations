@@ -24,3 +24,22 @@ Firewall Subnet: Ensure that the virtual network includes a subnet named AzureFi
 **Review and Create:**
 
 Review your configuration settings and click "Create" to deploy the Azure Firewall. This process may take a few minutes.
+
+
+## Configure Azure Firewall Rules
+
+### Create Network Rules:
+- Navigate to the "Rules" section and select "Network rules."
+- Click on "Add rule collection" to create new network rules. Configure rules based on IP addresses, ports, and protocols.
+
+### Create Application Rules:
+
+- Navigate to the "Rules" section and select "Application rules."
+- Click on "Add rule collection" to create new application rules. Configure rules based on fully qualified domain names (FQDNs).
+
+### Configure NAT Rules (optional):
+
+- Go to the "Rules" section and select "NAT rules."
+- Click on "Add NAT rule collection" to configure NAT rules for translating public IP addresses to private IP addresses.
+
+### Save the configuration
