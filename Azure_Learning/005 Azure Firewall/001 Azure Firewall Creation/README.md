@@ -43,3 +43,13 @@ Review your configuration settings and click "Create" to deploy the Azure Firewa
 - Click on "Add NAT rule collection" to configure NAT rules for translating public IP addresses to private IP addresses.
 
 ### Save the configuration
+
+
+## Testing 
+
+### Conduct Security Testing
+
+**Penetration Testing:**
+
+- Simulate Attacks: Perform controlled penetration tests to simulate potential attacks and ensure the firewall is correctly blocking malicious traffic.
+- Use Tools: Test with tools like Nmap or Nessus to scan for open ports and vulnerabilities.
