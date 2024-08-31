@@ -12,6 +12,7 @@ A collection of scripts and tools for managing Azure operations. This repository
 
 ```
 Azure_Operations/
+├── Azure_Learning/
 ├── ARM_Templates/
 ├── PowerShell_Scripts/
 ├── CLI_Scripts/
