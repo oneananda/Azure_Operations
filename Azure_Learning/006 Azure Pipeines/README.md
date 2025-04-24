@@ -7,3 +7,11 @@ Azure Pipelines is a cloud-hosted continuous integration and continuous delivery
 - **Pipelines**  
   - **Build (CI)**: Compiles your code, runs tests, and produces build artifacts (binaries, packages, container images).  
   - **Release (CD)**: Takes those artifacts and deploys them to target environments (e.g., development, staging, production).
+
+- **YAML vs. Classic**
+  - **YAML Pipelines**  
+    - Configuration-as-code: pipeline definitions live alongside your application code in a file named `azure-pipelines.yml`.  
+    - Better for versioning, branching, and reuse.  
+  - **Classic Pipelines**  
+    - GUI-driven editor in the Azure DevOps portal.  
+    - Easier to get started if you prefer point-and-click over editing YAML.
