@@ -1,0 +1,78 @@
+# azure-pipelines.yml
+
+# 1. Pipeline metadata
+name: $(Date:yyyyMMdd)$(Rev:.r)     # Optional: auto-generated build number
+trigger:                             # 2. Build triggers
+  branches:
+    include:
+      - main
+      - release/*
+
+pr:                                  # 3. PR validation
+  branches:
+    include:
+      - main
+
+variables:                           # 4. Pipeline-wide variables
+  buildConfiguration: 'Release'
+  vmImage: 'ubuntu-latest'
+
+# 5. Resource declarations (optional)
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: DevOps/azure-pipelines-templates
+
+  containers:
+    - container: node
+      image: node:14-alpine
+
+# 6. Stages (top-level CI/CD phases)
+stages:
+  - stage: Build
+    displayName: "Build stage"
+    jobs:                          # 7. Jobs within a stage
+      - job: BuildJob
+        pool:
+          vmImage: $(vmImage)
+        steps:                     # 8. Steps (tasks & scripts)
+          - checkout: self
+          - task: UseDotNet@2
+            inputs:
+              packageType: 'sdk'
+              version: '6.x'
+          - script: dotnet build --configuration $(buildConfiguration)
+            displayName: "Build solution"
+
+  - stage: Test
+    displayName: "Test stage"
+    dependsOn: Build
+    jobs:
+      - job: TestJob
+        pool:
+          vmImage: $(vmImage)
+        steps:
+          - checkout: self
+          - script: dotnet test --configuration $(buildConfiguration)
+            displayName: "Run unit tests"
+
+  - stage: Deploy
+    displayName: "Deploy stage"
+    dependsOn: Test
+    condition: succeeded()
+    jobs:
+      - deployment: DeployWeb
+        environment: 'staging'    # 9. Environments and approvals
+        pool:
+          vmImage: $(vmImage)
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - script: echo "Deploying to staging..."
+                - task: AzureWebApp@1
+                  inputs:
+                    azureSubscription: 'MyServiceConnection'
+                    appName: 'my-web-app-staging'
+                    package: '$(Pipeline.Workspace)/drop/**/*.zip'
