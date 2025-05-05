@@ -13,8 +13,6 @@ Azure Migrate provides a unified and integrated experience to assess and migrate
 * [Migration](#migration)
 * [Monitoring and Reporting](#monitoring-and-reporting)
 * [Troubleshooting](#troubleshooting)
-* [Contributing](#contributing)
-* [License](#license)
 
 ## Features
 
