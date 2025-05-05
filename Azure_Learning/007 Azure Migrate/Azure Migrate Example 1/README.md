@@ -1,4 +1,7 @@
-﻿# 900-VM Migration: Detailed 9-Wave Plan
+﻿# Example : 900-VM Migration - Detailed 9-Wave Plan
+
+We migrate 900 on-premises VMs to Azure in nine waves of 100 VMs each. Two Azure Migrate appliances perform discovery and collect performance data, then upload it into a centralized Azure Migrate project. For each wave, we run assessments (readiness, sizing, cost), map on-prem networks to Azure VNets, enable replication via Azure Site Recovery, perform test failovers, and finally cut over production workloads. Database migrations use Azure Database Migration Service and web apps use the App Service Migration tool in parallel. After each wave we validate performance, optimize VM sizing and costs, and, once all waves complete, decommission on-prem infrastructure.
+
 
 | Phase                            | Key Activities                                                                                                                                                                                                                                                                                                                           |
 | -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
