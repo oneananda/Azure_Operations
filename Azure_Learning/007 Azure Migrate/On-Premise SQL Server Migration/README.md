@@ -12,3 +12,11 @@ This involves several steps to ensure a smooth transition, proper configuration,
 - Dependencies
 - Type (Standalone, clustered, availablity group)
 
+## Planning
+
+- Choose the right Azure SQL service
+  - Azure SQL Database 
+  - Azure SQL Managed Instance
+  - SQL Server on Azure Virtual Machines
+
+
