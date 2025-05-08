@@ -100,6 +100,19 @@ This involves several steps to ensure a smooth transition, proper configuration,
 - Check for workload issues
 - Check for performance requirements issues
 
+# Backup the databases
+	- Use SQL Server Management Studio (SSMS) to backup the databases
+	- Use Azure Backup to backup the databases
+	- Use Azure Blob Storage to store the backups
+	- Use Azure Site Recovery to replicate the backups
+	- Use Azure Data Box to transfer the backups
+	- Use Azure Data Lake Storage to store the backups
+	- Use Azure Data Factory to copy the backups
+	- Use Azure Data Lake Analytics to analyze the backups
+	- Use Azure Data Explorer to query the backups
+
+
+
 ## Migration tasks
 
 - Use Azure Migrate to assess the on-premises SQL Server environment
