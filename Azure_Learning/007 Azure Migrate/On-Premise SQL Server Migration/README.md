@@ -111,7 +111,14 @@ This involves several steps to ensure a smooth transition, proper configuration,
 	- Use Azure Data Lake Analytics to analyze the backups
 	- Use Azure Data Explorer to query the backups
 
+# Rollback plan
 
+	- Use Azure Site Recovery to failover to the on-premises SQL Server
+	- Use Azure Backup to restore the databases to the on-premises SQL Server
+	- Use Azure Blob Storage to restore the backups to the on-premises SQL Server
+	- Use Azure Data Box to transfer the backups to the on-premises SQL Server
+	- Use Azure Data Lake Storage to restore the backups to the on-premises SQL Server
+	- Use Azure Data Factory to copy the backups to the on-premises SQL Server
 
 ## Migration tasks
 
