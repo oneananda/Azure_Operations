@@ -27,4 +27,12 @@ A Function App is a container for one or more Azure Functions. It provides a way
 
 Yes, Azure Functions can be configured to expose publicly accessible HTTP endpoints. When you create an HTTP-triggered function, Azure automatically generates a URL that can be used to invoke the function over the web.
 
+## Q: In continuation to the previous question, Can I call Azure Functions are API endpoints?
+
+Yes, Azure Functions can be called as API endpoints. You can create HTTP-triggered functions that respond to HTTP requests, making them suitable for building RESTful APIs. You can also use Azure API Management to manage and secure your function APIs.
+
+## Q: Can I use asp.net core web API with Azure Functions?
+
+Yes, you can use ASP.NET Core Web API with Azure Functions. You can create HTTP-triggered functions that handle requests and responses similar to a traditional ASP.NET Core Web API. However, keep in mind that Azure Functions is designed for serverless scenarios, so you may need to adapt your code to fit the serverless model.
+
 
