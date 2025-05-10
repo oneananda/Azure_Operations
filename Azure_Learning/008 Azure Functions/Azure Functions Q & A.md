@@ -35,4 +35,25 @@ Yes, Azure Functions can be called as API endpoints. You can create HTTP-trigger
 
 Yes, you can use ASP.NET Core Web API with Azure Functions. You can create HTTP-triggered functions that handle requests and responses similar to a traditional ASP.NET Core Web API. However, keep in mind that Azure Functions is designed for serverless scenarios, so you may need to adapt your code to fit the serverless model.
 
+## Q: So Azure Functions are capable of used as an website?
+
+Yes, Azure Functions can be used to build web applications. You can create HTTP-triggered functions that serve web pages or APIs, allowing you to host dynamic content. However, for more complex web applications, you may want to consider using Azure App Service or Azure Static Web Apps, which provide additional features and capabilities for hosting web applications.
+
+
+## Azure Functions Debugging Q & A
+
+### Q: How can I debug Azure Functions locally?
+
+You can debug Azure Functions locally using the Azure Functions Core Tools and your preferred development environment (e.g., Visual Studio, Visual Studio Code). You can set breakpoints, inspect variables, and step through your code just like you would with any other application.
+
+### Q: What are some common debugging techniques for Azure Functions?
+
+- **Logging**: Use the built-in logging capabilities to log messages and exceptions. You can use `ILogger` to write logs at different levels (e.g., Information, Warning, Error).
+- **Local Development**: Run your functions locally using the Azure Functions Core Tools to test and debug before deploying to Azure.
+- **Application Insights**: Integrate Application Insights to monitor and diagnose issues in your functions. It provides telemetry data, including request rates, response times, and exceptions.
+- **Test Functions**: Create unit tests for your functions to validate their behavior in isolation. You can use testing frameworks like xUnit or NUnit.
+
+
+
+
 
