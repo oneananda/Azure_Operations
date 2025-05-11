@@ -68,6 +68,10 @@ You can monitor the performance of Azure Functions using:
 - **Azure Application Insights Profiler**: Use the profiler to analyze performance bottlenecks and identify slow-running functions.
 
 
+### Q: If I am creating an Azure Function, how the network policy will be applied?
+
+Azure Functions can be deployed in a virtual network (VNet) to control network access and apply network policies. You can configure VNet integration to allow your functions to access resources within the VNet securely. Additionally, you can use Network Security Groups (NSGs) to define inbound and outbound traffic rules for your function's VNet subnet.
+
 
 
 
