@@ -84,3 +84,6 @@ You can secure Azure Functions using various methods:
 - **CORS**: Configure Cross-Origin Resource Sharing (CORS) to control which domains can access your functions.
 - **SSL/TLS**: Ensure that your functions are accessed over HTTPS to encrypt data in transit.
 
+### Q: How can I scale Azure Functions?
+
+Azure Functions automatically scale based on demand. The scaling behavior depends on the hosting plan you choose:
