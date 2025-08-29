@@ -20,3 +20,44 @@ AKS is ideal for running microservices-based applications, enabling DevOps workf
 
 ---
 
+## 🛠️ Common Use Cases
+- Running **microservices-based applications** at scale.
+- Hosting **stateless and stateful workloads** (web apps, APIs, batch jobs, data pipelines).
+- **DevOps automation** using GitOps, CI/CD pipelines, and Infrastructure as Code (IaC).
+- **AI/ML model deployment** with GPU-enabled nodes.
+- Multi-tenant application hosting with strong security isolation.
+
+---
+
+## 📂 Learning Objectives
+After completing this module, you should be able to:
+1. Understand Kubernetes fundamentals and how AKS manages them.
+2. Create and configure an AKS cluster.
+3. Deploy applications using `kubectl` and Helm.
+4. Enable monitoring, scaling, and logging.
+5. Integrate AKS with Azure services (ACR, Key Vault, Application Gateway, Azure Policy).
+6. Apply best practices for cost, performance, and security optimization.
+
+---
+
+## ⚡ Quick Start (Azure CLI)
+```bash
+# Create a resource group
+az group create --name myResourceGroup --location eastus
+
+# Create an AKS cluster with default node pool
+az aks create --resource-group myResourceGroup \
+  --name myAKSCluster \
+  --node-count 3 \
+  --enable-addons monitoring \
+  --generate-ssh-keys
+
+# Get cluster credentials
+az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
+
+# Deploy a sample app
+kubectl create namespace demo
+kubectl apply -f https://k8s.io/examples/application/deployment.yaml -n demo
+
+# Verify deployment
+kubectl get pods -n demo
