@@ -61,3 +61,16 @@ kubectl apply -f https://k8s.io/examples/application/deployment.yaml -n demo
 
 # Verify deployment
 kubectl get pods -n demo
+```
+---
+
+## 🧩 Integrations
+
+* **Azure Container Registry (ACR)** – Secure image storage and retrieval.
+* **Azure Monitor & Log Analytics** – Centralized observability.
+* **Azure Active Directory (AAD)** – RBAC and identity integration.
+* **Ingress Controllers (NGINX, App Gateway)** – Load balancing and routing.
+
+---
+
+
