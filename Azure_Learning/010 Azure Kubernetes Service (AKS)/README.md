@@ -73,4 +73,22 @@ kubectl get pods -n demo
 
 ---
 
+## ✅ Best Practices
 
+* Use **managed identities** for secure access to Azure resources.
+* Enable **auto-upgrade** and **auto-repair** on node pools.
+* Implement **network policies** for pod-level security.
+* Use **PodDisruptionBudgets (PDBs)** to maintain availability during upgrades.
+* Integrate with **Key Vault** for secrets management.
+* Apply **resource requests/limits** for predictable scaling and cost management.
+
+---
+
+## 📚 Further Learning
+
+* [Azure AKS Documentation](https://learn.microsoft.com/azure/aks/)
+* [Kubernetes Official Documentation](https://kubernetes.io/docs/home/)
+* [AKS Best Practices](https://learn.microsoft.com/azure/aks/best-practices)
+* [Azure Arc for Multi-Cloud Kubernetes](https://learn.microsoft.com/azure/azure-arc/kubernetes/)
+
+---
