@@ -20,3 +20,22 @@ By the end of this module, you should be able to:
 - Optimize costs and security for container workloads.
 
 ---
+
+
+## 🏗️ Key Concepts
+
+### Azure Container Instances (ACI)
+- **Fast startup** — launch containers in seconds.
+- **Stateless / stateful** — support ephemeral or attached persistent Azure Files.
+- **Networking** — public IP, VNet integration, DNS labels.
+- **Execution models** — run continuously or schedule jobs.
+- **Use cases** — dev/test workloads, CI/CD tasks, simple APIs, batch processing.
+
+### Azure Container Apps (ACA)
+- **Microservices ready** — scale apps, APIs, and event-driven services.
+- **Autoscaling (KEDA)** — scale to zero on events (HTTP, queues, Kafka, etc.).
+- **Service-to-service communication** with mTLS and Dapr sidecars.
+- **Revisions** — easy rollouts, blue/green or canary deployments.
+- **Use cases** — production APIs, background workers, event-driven microservices.
+
+---
