@@ -57,3 +57,13 @@ Azure Storage provides data replication options to ensure durability:
   Same as GRS, but allows **read access** to the secondary region.
 
 ---
+
+## ⏳ Lifecycle Management
+- **Automatic tiering:** Move blobs between Hot, Cool, and Archive tiers.
+- **Rules:** Define age-based deletion or tier change policies.
+- **Example Policy:**  
+  - Move to Cool after 30 days.  
+  - Move to Archive after 90 days.  
+  - Delete after 365 days.
+
+---
