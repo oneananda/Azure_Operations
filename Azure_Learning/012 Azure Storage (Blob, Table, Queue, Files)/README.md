@@ -40,3 +40,20 @@ By the end of this module, you should be able to:
 - Can be mounted by Windows, Linux, macOS VMs.
 
 ---
+
+## 🔄 Redundancy Options
+Azure Storage provides data replication options to ensure durability:
+
+- **LRS (Locally Redundant Storage):**  
+  Replicates data 3 times within a single datacenter.
+
+- **ZRS (Zone Redundant Storage):**  
+  Replicates across 3 availability zones in a region.
+
+- **GRS (Geo-Redundant Storage):**  
+  Replicates to a secondary region (hundreds of miles away).
+
+- **RA-GRS (Read-Access GRS):**  
+  Same as GRS, but allows **read access** to the secondary region.
+
+---
