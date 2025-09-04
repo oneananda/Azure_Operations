@@ -42,3 +42,12 @@ By the end of this module, you should be able to:
 - **Advanced Threat Protection** (Defender for SQL).
 
 ---
+
+## Configure firewall
+
+az sql server firewall-rule create \
+  --resource-group MyResourceGroup \
+  --server my-sql-server123 \
+  --name AllowMyIP \
+  --start-ip-address <your-ip> \
+  --end-ip-address <your-ip>
