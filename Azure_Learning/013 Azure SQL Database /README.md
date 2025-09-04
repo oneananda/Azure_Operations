@@ -51,3 +51,16 @@ az sql server firewall-rule create \
   --name AllowMyIP \
   --start-ip-address <your-ip> \
   --end-ip-address <your-ip>
+
+
+💰 Cost Optimization
+
+Use Elastic Pools for multiple variable-load databases.
+
+Scale up/down based on workload demand (vCore or DTU model).
+
+Pause/resume compute for serverless SQL Database.
+
+Use Auto-pause for dev/test environments.
+
+Monitor with Azure Cost Management and apply Advisor recommendations.
