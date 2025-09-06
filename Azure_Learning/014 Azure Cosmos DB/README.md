@@ -27,3 +27,14 @@ Cosmos DB supports different APIs for different workloads:
 - **Cassandra API** – for wide-column workloads.
 - **Gremlin API** – for graph databases.
 - **Table API** – for key-value storage.
+
+- ### 2. Global Distribution
+- Replicate data to any of Azure’s regions.
+- Multi-region writes for high availability.
+- Automatic failover policies.
+
+### 3. Partitioning
+- Data is distributed via **partition keys**.
+- Logical partition → set of items with the same partition key.
+- Physical partition → managed by Cosmos DB automatically.
+- Partitioning enables **horizontal scale-out**.
