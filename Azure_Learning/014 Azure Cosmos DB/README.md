@@ -17,3 +17,13 @@ By the end of this module, you should be able to:
 - Apply security, monitoring, and cost optimization practices.
 
 ---
+
+## 🏗️ Key Concepts
+
+### 1. Multi-Model Support
+Cosmos DB supports different APIs for different workloads:
+- **Core (SQL API)** – JSON document DB with SQL-like queries.
+- **MongoDB API** – compatible with MongoDB drivers.
+- **Cassandra API** – for wide-column workloads.
+- **Gremlin API** – for graph databases.
+- **Table API** – for key-value storage.
