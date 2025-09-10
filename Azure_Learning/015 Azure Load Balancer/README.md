@@ -53,3 +53,21 @@ By the end of this module, you should be able to:
 * Avoid unnecessary public IPs; use NAT rules instead.
 
 ---
+
+## 📊 Monitoring & Logging
+
+* **Azure Monitor** – track metrics (data path availability, packet drops, SNAT ports).
+* **Diagnostic Logs** – capture traffic and probe logs.
+* **Network Watcher** – for troubleshooting.
+* Alerts for unhealthy backend instances.
+
+---
+
+## 🔒 Security Best Practices
+
+* Always prefer **Standard SKU** for secure by default configuration.
+* Restrict access using **NSGs (Network Security Groups)**.
+* Combine with **Azure Firewall** or **WAF (Web Application Firewall)** for advanced filtering.
+* Use **Internal Load Balancer (ILB)** for private workloads.
+
+---
