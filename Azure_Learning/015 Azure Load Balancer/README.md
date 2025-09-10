@@ -44,3 +44,12 @@ By the end of this module, you should be able to:
 - Can be combined with **Azure Availability Zones** for resiliency.  
 
 ---
+
+## 💰 Cost Optimization
+
+* Use **Basic SKU** for dev/test and **Standard SKU** for production.
+* Consolidate backend pools when possible to reduce resources.
+* Deallocate unused VMs to stop accruing backend costs.
+* Avoid unnecessary public IPs; use NAT rules instead.
+
+---
