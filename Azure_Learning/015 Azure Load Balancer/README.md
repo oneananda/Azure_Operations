@@ -9,3 +9,16 @@ There are two main SKUs:
 - **Standard Load Balancer** – production-ready, zone-redundant, secure, and highly scalable.
 
 ---
+
+## 🎯 Learning Objectives
+By the end of this module, you should be able to:
+- Understand **Public** vs **Internal** Load Balancers.  
+- Configure backend pools, health probes, and rules.  
+- Differentiate between **Basic** vs **Standard** SKU.  
+- Use Load Balancer for **high availability** and **scaling**.  
+- Monitor and secure traffic flows effectively.  
+
+---
+
+
+
