@@ -33,4 +33,19 @@ By the end of this module, you should be able to:
 - **Load Balancing Rules** – distribute traffic based on protocol/port.  
 - **NAT Rules** – direct inbound connections (RDP/SSH).  
 
+- ### High Availability
+- Standard SKU supports **zone redundancy**.  
+- Integrates with **Availability Zones** for resiliency.  
+- Scales to millions of flows.  
+
+---
+
+## 📊 Monitoring & Logging
+
+* **Azure Monitor** → availability, SNAT usage, packet drops.
+* **Diagnostic Logs** → probe results, traffic logs.
+* **Network Watcher** → flow logs and troubleshooting.
+* Alerts for unhealthy instances.
+
+---
 
