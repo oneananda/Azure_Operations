@@ -20,5 +20,17 @@ By the end of this module, you should be able to:
 
 ---
 
+## 🏗️ Key Concepts
+
+### Types of Load Balancer
+- **Public Load Balancer** → Distributes internet traffic to Azure resources.  
+- **Internal Load Balancer (ILB)** → Distributes private traffic within a VNet.  
+
+### Core Components
+- **Frontend IP** – entry point (public/private).  
+- **Backend Pool** – VMs/VMSS that receive traffic.  
+- **Health Probe** – checks instance health.  
+- **Load Balancing Rules** – distribute traffic based on protocol/port.  
+- **NAT Rules** – direct inbound connections (RDP/SSH).  
 
 
