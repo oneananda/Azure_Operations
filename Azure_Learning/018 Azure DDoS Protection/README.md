@@ -37,3 +37,33 @@ By the end of this module, you should be able to:
 - 24/7 **DDoS Rapid Response (DRR)** support.  
 
 ---
+
+## 💰 Cost Optimization
+
+* **Basic** is free and sufficient for most small workloads.
+* Use **Standard** for internet-facing production workloads (especially financial, gaming, e-commerce).
+* Consider **shared protection plans** across VNets to optimize cost.
+* Leverage **cost protection credits** for scale-out due to attack.
+
+---
+
+## 📊 Monitoring & Logging
+
+* **Azure Monitor Metrics** → dropped packets, attack traffic vs clean traffic.
+* **Attack Analytics** → view detailed attack reports post-mitigation.
+* **Log Analytics** → centralized insights into DDoS events.
+* **Alerts** → configure notifications for attack detection and mitigation events.
+
+---
+
+## 🔒 Security Best Practices
+
+* Combine **DDoS Protection** with:
+
+  * **NSGs (Network Security Groups)** for L3/L4 filtering.
+  * **Azure Firewall / Application Gateway WAF** for Layer 7 attacks.
+  * **Private Endpoints** where possible to reduce exposure.
+* Always enable **DDoS Standard** for mission-critical apps.
+* Regularly review attack telemetry and update architecture if needed.
+
+---
