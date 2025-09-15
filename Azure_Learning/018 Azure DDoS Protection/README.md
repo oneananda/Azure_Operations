@@ -67,3 +67,13 @@ By the end of this module, you should be able to:
 * Regularly review attack telemetry and update architecture if needed.
 
 ---
+
+## ✅ Summary
+
+* **DDoS Basic** → Always-on platform-level protection.
+* **DDoS Standard** → Enhanced protection, telemetry, and support for enterprise workloads.
+* Protects against **volumetric** and **protocol-level** attacks.
+* Must be combined with **WAF** for full **Layer 7** coverage.
+
+---
+
