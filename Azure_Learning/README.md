@@ -20,3 +20,14 @@ By the end of this module, you should be able to:
 - Apply governance and compliance strategies for identity management.
 
 ---
+
+## 🏗️ Key Concepts
+
+### Users
+- Can be created manually, synced from on-prem AD (via Azure AD Connect), or invited as **B2B guest users**.  
+- Assigned licenses for Microsoft 365, Azure, or custom apps.  
+
+### Groups
+- **Security Groups** – manage access to resources.  
+- **Microsoft 365 Groups** – collaboration with shared mailbox, Teams, SharePoint.  
+- Groups support **dynamic membership rules**.  
