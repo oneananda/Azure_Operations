@@ -31,3 +31,18 @@ By the end of this module, you should be able to:
 - **Security Groups** – manage access to resources.  
 - **Microsoft 365 Groups** – collaboration with shared mailbox, Teams, SharePoint.  
 - Groups support **dynamic membership rules**.  
+
+### Roles
+- **Directory Roles (RBAC):** Granular admin roles like Global Admin, User Admin, Security Reader.  
+- **Custom Roles** for fine-grained delegation.  
+- Best practice: **least privilege principle**.  
+
+### Conditional Access
+- Contextual access policies based on:  
+  - User, device, location, app, risk level.  
+- Examples:  
+  - Require MFA for external users.  
+  - Block legacy authentication.  
+  - Allow access only from compliant devices.  
+
+---
