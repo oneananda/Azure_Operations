@@ -25,3 +25,24 @@ Azure Monitor is a comprehensive monitoring service that collects, analyzes, and
   Works seamlessly with services like Azure Security Center, Azure Automation, Azure Sentinel, and third-party SIEM solutions.
 
 ---
+## 🏗️ Architecture Components
+1. **Data Sources**  
+   - Azure resources (VMs, storage, databases, AKS, App Service, etc.)  
+   - Applications (via Application Insights SDK)  
+   - Custom telemetry (via APIs, agents)
+
+2. **Data Collection**  
+   - Metrics (near real-time numeric data)  
+   - Logs (event and trace data)  
+   - Distributed tracing
+
+3. **Data Storage**  
+   - Azure Monitor Metrics database  
+   - Azure Log Analytics workspace
+
+4. **Analysis & Actions**  
+   - KQL queries for deep log analysis  
+   - Alerts and auto-scaling triggers  
+   - Insights (VM Insights, Container Insights, Network Insights)
+
+---
