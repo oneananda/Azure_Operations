@@ -1,48 +1,30 @@
-﻿# 019 Azure Active Directory (Entra ID)
+﻿# 022 Azure Application Insights
 
 ## 📌 Overview
-
-Azure Active Directory (Azure AD), now known as Entra ID, is a comprehensive identity and access management service that provides secure access to resources both in the cloud and on-premises. It enables organizations to manage user identities, enforce access policies, and ensure compliance across various applications and services.
-
-There are several editions of Entra ID, including Free, Office 365 Apps, Premium P1, and Premium P2, each offering different levels of features and capabilities.
+Azure Application Insights is an **Application Performance Monitoring (APM)** service that helps developers and DevOps teams track the health, performance, and usage of their applications. It provides end-to-end visibility across distributed systems, detects anomalies, and offers powerful analytics to diagnose issues and improve the user experience.
 
 ---
 
-## 🎯 Learning Objectives
+## 🚀 Key Features
+- **Request & Response Tracking**  
+  Monitor HTTP requests, response times, failure rates, and dependencies.
 
-By the end of this module, you should be able to:
-- Understand the core features and benefits of Entra ID.
-- Differentiate between the various editions of Entra ID.
-- Manage users, groups, and roles effectively.
-- Implement single sign-on (SSO) and multi-factor authentication (MFA).
-- Monitor and secure identities using built-in tools and best practices.
-- Integrate Entra ID with other Microsoft services and third-party applications.
-- Apply governance and compliance strategies for identity management.
+- **Dependency Monitoring**  
+  Track calls to databases, APIs, external services, and identify bottlenecks.
 
----
+- **Exception Tracking**  
+  Collect, analyze, and alert on exceptions with stack traces.
 
-## 🏗️ Key Concepts
+- **Real User Monitoring (RUM)**  
+  Capture client-side performance data from browsers and mobile apps.
 
-### Users
-- Can be created manually, synced from on-prem AD (via Azure AD Connect), or invited as **B2B guest users**.  
-- Assigned licenses for Microsoft 365, Azure, or custom apps.  
+- **Custom Telemetry**  
+  Log custom events, metrics, and traces using SDKs.
 
-### Groups
-- **Security Groups** – manage access to resources.  
-- **Microsoft 365 Groups** – collaboration with shared mailbox, Teams, SharePoint.  
-- Groups support **dynamic membership rules**.  
+- **Distributed Tracing**  
+  Trace requests as they travel across microservices or cloud components.
 
-### Roles
-- **Directory Roles (RBAC):** Granular admin roles like Global Admin, User Admin, Security Reader.  
-- **Custom Roles** for fine-grained delegation.  
-- Best practice: **least privilege principle**.  
-
-### Conditional Access
-- Contextual access policies based on:  
-  - User, device, location, app, risk level.  
-- Examples:  
-  - Require MFA for external users.  
-  - Block legacy authentication.  
-  - Allow access only from compliant devices.  
+- **Dashboards & Workbooks**  
+  Build visual reports with customizable charts, queries, and KPIs.
 
 ---
