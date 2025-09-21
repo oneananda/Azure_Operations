@@ -46,3 +46,38 @@ Azure Monitor is a comprehensive monitoring service that collects, analyzes, and
    - Insights (VM Insights, Container Insights, Network Insights)
 
 ---
+
+
+## 📊 Common Scenarios
+- Monitoring the health and performance of Azure VMs and applications  
+- Detecting and diagnosing issues using log queries and workbooks  
+- Setting up alerts for unusual activity (e.g., CPU spikes, failed requests)  
+- Visualizing service availability with dashboards  
+- Enabling autoscale rules based on performance metrics  
+
+---
+
+## ⚡ Quick Start
+1. **Enable Monitoring**  
+   - In the Azure Portal, navigate to a resource and enable diagnostics/metrics collection.  
+   - Connect to a Log Analytics workspace.
+
+2. **Collect Data**  
+   - Configure data collection rules (DCRs).  
+   - Install the Azure Monitor Agent (AMA) on VMs.  
+   - Add Application Insights SDK for app telemetry.
+
+3. **Query Logs**  
+   - Use KQL in the Log Analytics workspace to explore data.  
+   - Example:
+     ```kusto
+     AzureActivity
+     | where ActivityStatus == "Failed"
+     | summarize count() by ResourceGroup, bin(TimeGenerated, 1h)
+     ```
+
+4. **Set Alerts**  
+   - Create metric or log alerts with conditions and actions.  
+   - Integrate with email, Teams, or PagerDuty.
+
+---
